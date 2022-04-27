@@ -11,7 +11,7 @@ function handleSubmitForm(ev) {
     if (!email.trim() || !password.trim()) {
         return alert('Заповніть всі поля форми')
     }
-
+console.log({email, password});
     /*==================если все успешно,- очистить форму*/
     ev.currentTarget.reset();
 }
